@@ -52,16 +52,38 @@ nav ul li a:hover{
 span{
     color: yellow;
 }
-.helo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%; /* Optionally, adjust the width as needed */
+.Me img{
+    border-radius: 50%;
+    height: 250px;
+    position: relative;
+    top: 40px;
+    left: 60px;
 }
-
-.helo p {
-    font-size: 23px;
-    font-weight: 600;
+.header1{
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+.header2{
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+.story{
+    position: relative;
+    left: 450px;
+    bottom: 100px;
+}
+.socials img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 140px;
+    border-radius: 50px;
+}
+.socials1 img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 200px;
 }
