@@ -1,0 +1,258 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Lexend:300,200,100");
+
+.default-page {
+  background-color: #8fb399;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.default-page .div {
+  background-color: #8fb399;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.default-page .overlap {
+  position: absolute;
+  width: 1402px;
+  height: 111px;
+  top: 15px;
+  left: 19px;
+  background-image: url(rectangle-1.png);
+  background-size: 100% 100%;
+}
+
+.default-page .expenses {
+  position: absolute;
+  width: 83px;
+  height: 87px;
+  top: 8px;
+  left: 1042px;
+  object-fit: cover;
+}
+
+.default-page .income {
+  position: absolute;
+  width: 95px;
+  height: 87px;
+  top: 12px;
+  left: 747px;
+  object-fit: cover;
+}
+
+.default-page .transactions {
+  position: absolute;
+  width: 99px;
+  height: 79px;
+  top: 16px;
+  left: 372px;
+  object-fit: cover;
+}
+
+.default-page .dashboard {
+  position: absolute;
+  width: 179px;
+  height: 25px;
+  top: 39px;
+  left: 161px;
+}
+
+.default-page .img {
+  position: absolute;
+  width: 155px;
+  height: 29px;
+  top: 40px;
+  left: 1157px;
+}
+
+.default-page .transactions-2 {
+  position: absolute;
+  width: 215px;
+  height: 27px;
+  top: 36px;
+  left: 500px;
+}
+
+.default-page .income-2 {
+  position: absolute;
+  width: 121px;
+  height: 23px;
+  top: 40px;
+  left: 876px;
+}
+
+.default-page .dashboard-2 {
+  position: absolute;
+  width: 89px;
+  height: 95px;
+  top: 8px;
+  left: 44px;
+  object-fit: cover;
+}
+
+.default-page .overlap-group {
+  position: absolute;
+  width: 1402px;
+  height: 850px;
+  top: 153px;
+  left: 19px;
+  background-color: #b3a1a1;
+  border-radius: 20px;
+}
+
+.default-page .text-wrapper {
+  position: absolute;
+  top: 14px;
+  left: 54px;
+  font-family: "Lexend", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.default-page .text-wrapper-2 {
+  position: absolute;
+  top: 14px;
+  left: 821px;
+  font-family: "Lexend", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.default-page .text-wrapper-3 {
+  position: absolute;
+  top: 14px;
+  left: 387px;
+  font-family: "Lexend", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.default-page .line {
+  position: absolute;
+  width: 1108px;
+  height: 1px;
+  top: 54px;
+  left: 54px;
+  mix-blend-mode: overlay;
+  object-fit: cover;
+}
+
+.default-page .overlap-2 {
+  position: absolute;
+  width: 457px;
+  height: 77px;
+  top: 108px;
+  left: 71px;
+}
+
+.default-page .rectangle {
+  position: absolute;
+  width: 457px;
+  height: 74px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.default-page .text-wrapper-4 {
+  position: absolute;
+  top: 16px;
+  left: 91px;
+  font-family: "Lexend", Helvetica;
+  font-weight: 100;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.default-page .search {
+  position: absolute;
+  width: 58px;
+  height: 77px;
+  top: 0;
+  left: 21px;
+}
+
+.default-page .div-wrapper {
+  position: absolute;
+  width: 151px;
+  height: 72px;
+  top: 144px;
+  left: 1179px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.default-page .text-wrapper-5 {
+  position: absolute;
+  top: 20px;
+  left: 43px;
+  font-family: "Lexend", Helvetica;
+  font-weight: 200;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.default-page .overlap-3 {
+  position: absolute;
+  width: 263px;
+  height: 72px;
+  top: 144px;
+  left: 899px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.default-page .text-wrapper-6 {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  font-family: "Lexend", Helvetica;
+  font-weight: 200;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.default-page .tablebackground {
+  position: absolute;
+  width: 1349px;
+  height: 564px;
+  top: 255px;
+  left: 35px;
+  object-fit: cover;
+}
